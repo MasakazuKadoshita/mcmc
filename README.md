@@ -13,7 +13,8 @@ Mass devices (some of them have different parts) cooperatively work as complete 
 MCMC stands on communications of things in a machine language.
 MCMC does not require Internet Protocol, in this sense, MCMC is _not_ IoT.
 
-MCMC will contribute blockchain computing, for instance, MCMC will supply CPUPower to miners.
+MCMC will contribute blockchain computing, for instance, MCMC will supply CPUPower to miners,
+or cats and dogs weared devices and coils might be suppliers.
 Then MCMC will be designed for the purpose of the application.
 Considering its application, MCMC will pay attention to the security against any and all attack.
 
@@ -59,8 +60,10 @@ Those who equipped control unit act controller.
 Those who equipped buffer unit store data to IO devices and memory devices.
 Those who equipped data bus carry data among CPU.
 Those who equipped MPU execute instractions.
-If possible, some MCMC devices have parts of MPU, in that 
+If possible, some MCMC devices have parts of MPU, in that
 they have logic circuit corresponding to one or more pipeline stage.
+In this case, there is advantage to communication because each devices represents its pipeline stage.
+This means that there addresses can be used as a part of machine language.
 
 ## Related work
 ---
