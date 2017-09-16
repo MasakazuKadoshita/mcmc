@@ -37,4 +37,28 @@ Here is a list of related work that affects to MCMC.
 | Power Supply                                  	| IoT                 	| Power Supply               	|
 | Security                                      	| IoT                 	| Security                   	|
 
+## Example
+---
+Let's get started MCMC.
+We'll build a MCMC system that simulate RISC architecture.
+We'll design MCMC devices in top-down way, and implement them in bottom-up way.
+We suppose simple RISC architecture that has 5 pipeline stages.
+
+### Table of pipelines stage
+
+| Stage Code	| Stage Name        	| text	|
+|-----------	|-------------------	|-----	|
+| IF        	| Instraction Fetch 	|     	|
+| D         	| Instraction Decode	|     	|
+| EX        	| Execute           	|     	|
+| MEM       	| Memory Access     	|     	|
+| WB        	| Writeback         	|     	|
+
+### Figure of 5 pipeline stages RISC architecture
+
+(to be showed)
+
+### Figure of corresponding MCMC architecture
+
+(to be showed)
 
