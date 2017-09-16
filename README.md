@@ -29,6 +29,14 @@ We'll build a MCMC system that simulates RISC architecture.
 We'll design MCMC devices in top-down way, and implement them in bottom-up way.
 We suppose simple RISC architecture that has 5 pipeline stages.
 
+### Figure of corresponding MCMC architecture
+
+(to be showed)
+
+### Figure of 5 pipeline stages RISC architecture
+
+(to be showed)
+
 ### Table of pipelines stage
 
 | Stage Code	| Stage Name        	| text	|
@@ -38,14 +46,6 @@ We suppose simple RISC architecture that has 5 pipeline stages.
 | EX        	| Execute           	|     	|
 | MEM       	| Memory Access     	|     	|
 | WB        	| Writeback         	|     	|
-
-### Figure of 5 pipeline stages RISC architecture
-
-(to be showed)
-
-### Figure of corresponding MCMC architecture
-
-(to be showed)
 
 MCMC devices communicate on a network called MCMC Net in its machine language.
 MCMC Net's topology will be any type, that will be bus, star, ring, MST(Minimum Spanning Tree), or other innovative one.
