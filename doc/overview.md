@@ -9,15 +9,7 @@ We'll build a MCMC system that simulates RISC architecture.
 We'll design MCMC devices in top-down way, and implement them in bottom-up way.
 We suppose simple RISC architecture that has 5 pipeline stages.
 
-### Figure of corresponding MCMC architecture
-
-(to be showed)
-
-### Figure of 5 pipeline stages RISC architecture
-
-(to be showed)
-
-### Table of pipelines stage
+### Table of pipeline stages
 
 | Stage Code	| Stage Name        	| text	|
 |-----------	|-------------------	|-----	|
@@ -48,6 +40,7 @@ This means that there addresses can be used as a part of machine language.
 ---
 
 Here is a list of related work that affects to MCMC.
+We'll follow these ICTs.
 
 | Specified Domain    	| Technology Element                            	| Affects to                 	|
 |---------------------	|-----------------------------------------------	|----------------------------	|
@@ -55,7 +48,8 @@ Here is a list of related work that affects to MCMC.
 | Blockchain Platform 	| Operating System                               	| Controller Unit            	|
 | Miner Platform      	| FPGA Implementation                           	| MPU Parts / Machine Language 	|
 | Ledger              	| Memory Architecture                           	| Buffer Unit                	|
-| IoT                 	| Low Power Wide Area Communication Protocol    	| Communication Protocol     	|
+| M2M/Senser Network  	| IEEE802.15.4                                  	| Inside Communication Protocol	|
+| IoT                 	| Low Power Wide Area Communication Protocol    	| Outside Communication Protocol	|
 | IoT                 	| Power Supply                                  	| Power Supply               	|
 | IoT                 	| Security                                      	| Security                   	|
 
