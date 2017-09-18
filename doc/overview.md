@@ -36,7 +36,7 @@ they have logic circuit corresponding to one or more pipeline stage.
 In this case, there is advantage to communication because each devices represents its pipeline stage.
 This means that there addresses can be used as a part of machine language.
 
-## Related work
+## Related works
 ---
 
 Here is a list of related work that affects to MCMC.
