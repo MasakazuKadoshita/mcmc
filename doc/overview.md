@@ -48,7 +48,7 @@ We'll follow these ICT activities.
 | Blockchain Platform 	| Operating System                               	| Controller Unit            	|
 | Miner Platform      	| FPGA Implementation                           	| MPU Parts / Machine Language 	|
 | Ledger              	| Memory Architecture                           	| Buffer Unit                	|
-| M2M/Senser Network  	| IEEE802.15.4                                  	| Inside Communication Protocol	|
+| M2M/Sensor Network  	| IEEE802.15.4                                  	| Inside Communication Protocol	|
 | IoT                 	| Low Power Wide Area Communication Protocol    	| Outside Communication Protocol	|
 | IoT                 	| Power Supply                                  	| Power Supply               	|
 | IoT                 	| Security                                      	| Security                   	|
