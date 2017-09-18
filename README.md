@@ -1,8 +1,8 @@
-# MCMC (Mass Cooperative Micro Computing)
+# MCMC (Massively Cooperative Micro Computing)
 ---
 
 MCMC is next generation open source computer architecture.
-MCMC means Mass Cooperative Micro Computing.
+MCMC means Massively Cooperative Micro Computing.
 
 ## About MCMC
 ---
