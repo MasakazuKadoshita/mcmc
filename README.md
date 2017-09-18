@@ -11,6 +11,8 @@ MCMC consists of a large amount of small devices equipped parts of a micro compu
 Mass devices (some of them have different parts) cooperatively work as complete computers.
 The goal is to develop a platform of mass devices cooperative computing.
 
+![mcmcnetwork](https://user-images.githubusercontent.com/31941551/30527075-6963178c-9c5f-11e7-8702-732ad69d0874.png)
+
 ### MCMC and IoT
 MCMC stands on communications of things in a machine language.
 Since MCMC does not require Internet Protocol, in this sense, MCMC is _not_ IoT.
