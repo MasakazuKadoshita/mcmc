@@ -40,7 +40,7 @@ This means that there addresses can be used as a part of machine language.
 ---
 
 Here is a list of related work that affects to MCMC.
-We'll follow these ICTs.
+We'll follow these ICT activities.
 
 | Specified Domain    	| Technology Element                            	| Affects to                 	|
 |---------------------	|-----------------------------------------------	|----------------------------	|
