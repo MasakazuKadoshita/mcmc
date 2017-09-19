@@ -36,5 +36,5 @@ computer architecture, distributed computing, micro computer, RISC, logic circui
 
 ## License
 ---
-See the LISENCE file.
+See the LICENSE file.
 
