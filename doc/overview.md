@@ -9,8 +9,12 @@ We'll build a MCMC system that simulates RISC architecture.
 We'll design MCMC devices in top-down way, and implement them in bottom-up way.
 We suppose simple RISC architecture that has 5 pipeline stages MPU which execute instructions.
 
-### General Computer architecture
-To be described general computer architecture.
+### von Neumann architecture
+We generally use Computers of von Neumann architecture.
+To be show von Neumann architecture.
+
+### RISC archtecture
+To be show RISC architecture.
 
 ### 5 papeline stages RISC
 We show 5 papeline stages below.
@@ -28,12 +32,7 @@ We show 5 papeline stages below.
 MCMC devices communicate on a network called MCMC Net in its machine language.
 MCMC Net's topology will be any type, that will be bus, star, ring, MST(Minimum Spanning Tree), or other innovative one.
 
-### MCMC devices implemented parts of RISC.
-
-A RISC's CPU consists of control, buffer, data bus and MPU.
-Control devices are equipped controllers on CPU, that receive signals from control devices.
-Buffer devices are equipped buffers, that store data to and from IO devices and memory devices.
-Bus devices are equipped data buses, that carry data among CPU.
+### MCMC devices and equipped the pipeline stage parts
 
 MPU devices are equipped MPU execute instractions.
 If possible, some MCMC devices have parts of MPU, in that
@@ -41,13 +40,21 @@ they have logic circuit corresponding to one or more pipeline stage.
 In this case, there is advantage to communication because each devices represents its pipeline stage.
 This means that there addresses can be used as a part of machine language.
 
-### MCMC devices implemented the pipeline stages
+### MCMC devices and equipped RISC architecture parts
 
-Control unit are equipped control units, that control CPUs, memory units, and I/Os.
-The problem is how to control mass devices that implemented CPUs, memory units, and I/Os.
-I/O unit devices are equipped IO units, that communicate with IoT.
-Memory unit devices are equipped memory units, that store program and data (especialy data of ledger).
-CPU devices equipped CPU units, that work as a core of a multiple core machine.
+A RISC's CPU consists of control, buffer, data bus and MPU.
+Control devices are equipped controllers on CPU, that receive signals from control devices.
+Buffer devices are equipped buffers, that store data to and from IO devices and memory devices.
+Bus devices are equipped data buses, that carry data among CPU.
+
+### MCMC devices and equipped von Neumann architecture parts
+
+| MCMC devices         | equipped RISC parts | roles                                                           | Issues                                    |
+|----------------------|---------------------|-----------------------------------------------------------------|-------------------------------------------|
+| Control unit devices | control unit        | control I/Os, memory units, CPUs                                | How the devices control them?             |
+| I/O unit devices     | I/O unit            | communication with IoT                                          | How the devices communicate them?         |
+| Memory unit devices  | memory unit         | store prgram and data (especially data ob blockchain's ledgers) | how the devices guarantee data integrity? |
+| CPU devices          | CPU                 | work as a multiple core                                         | How the devices synchronize each other?   |
 
 ## Related works
 ---
