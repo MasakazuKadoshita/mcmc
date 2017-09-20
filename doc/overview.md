@@ -10,8 +10,15 @@ We'll design MCMC devices in top-down way, and implement them in bottom-up way.
 We suppose simple RISC architecture that has 5 pipeline stages MPU which execute instructions.
 
 ### von Neumann architecture
-We generally use Computers of von Neumann architecture.
-To be show von Neumann architecture.
+We are generally using Computers of von Neumann architecture.
+
+| Parts of von Neumann architecture | Roles                           |
+|-----------------------------------|---------------------------------|
+| Control Units                     | control other parts of computer |
+| MPUs(Processing Units)            | process programs                |
+| Memory Units                      | memorize programs and data      |
+| Input devices                     | input from outside(form IoT)    |
+| Output devices                    | output to outside(to IoT)       |
 
 ### RISC archtecture
 To be show RISC architecture.
