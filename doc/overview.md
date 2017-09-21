@@ -15,13 +15,22 @@ We are generally using Computers of von Neumann architecture.
 | Parts of von Neumann architecture | Roles                           |
 |-----------------------------------|---------------------------------|
 | Control Units                     | control other parts of computer |
-| MPUs(Processing Units)            | process programs                |
+| MPUs(Micro Processing Units)            | process programs                |
 | Memory Units                      | memorize programs and data      |
 | Input devices                     | input from outside(form IoT)    |
 | Output devices                    | output to outside(to IoT)       |
 
-### RISC archtecture
-To be show RISC architecture.
+### MPU architecture
+We show parts of MPUs(Micro Processing Units) below.
+
+| Parts of MPU architecture | Roles                           |
+|-----------------------------------|------------------------------------------|
+| Patrts of Pipeline Stages         | including PC, IR, ALU, flags, registers  |
+| Data Bus                          | carry data(machine wards)                |
+| Control Logic                     | handle control signal from Control Units |
+| Buffers                           | Buffers of addresses and data that communicate with memory units and I/O devices |
+
+
 
 ### 5 papeline stages RISC
 We show 5 papeline stages below.
