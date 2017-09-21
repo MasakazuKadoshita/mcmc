@@ -16,6 +16,8 @@ The goal is to develop a platform of mass devices cooperative computing.
 ### MCMC and IoT
 MCMC stands on communications of things in a machine language.
 Since MCMC does not require Internet Protocol, in this sense, MCMC is _not_ IoT.
+On the other hand, a MCMC network is not necessary to communmicate over a wireless network
+whose information media is atmosphre, as well as a IoT network is not.
 
 ### MCMC's Contribution
 MCMC will contribute blockchain computing, for instance, MCMC will supply CPU power to miners,
