@@ -32,6 +32,7 @@ TBD.
 |category	| product name	| URL 	|
 | -------	| ------------	| ----	|
 | Textbook of electronic work |- |- 	|
+| HDL(hardware description language) |TBD |- 	|
 | Logic circuit Simulator| logisim	| http://www.cburch.com/logisim/	|
 | Circuits boards	|-	|-	|
 | Parts of electric circuit	|-	|-	|
