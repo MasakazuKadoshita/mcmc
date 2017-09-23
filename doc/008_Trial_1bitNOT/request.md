@@ -28,8 +28,13 @@ Manually signal communication and data strage.
 TBD.
 
 ### Resources
-Textbook of electronic work.
-Circuits boards and parts of electric circuit.
+
+|category	| product name	| URL 	|
+| -------	| ------------	| ----	|
+| Textbook of electronic work |- |- 	|
+| Logic circuit Simulator| logisim	| http://www.cburch.com/logisim/	|
+| Circuits boards	|-	|-	|
+| Parts of electric circuit	|-	|-	|
 
 ### Related Works
 TBD.
