@@ -43,25 +43,39 @@ We show 5 papeline stages below.
 | MEM       	| Memory Access     	|     	|
 | WB        	| Writeback         	|     	|
 
-### MCMC Net
+### MCMC Network
 
-MCMC devices communicate on a network called MCMC Net in its machine language.
-MCMC Net's topology will be any type, that will be bus, star, ring, MST(Minimum Spanning Tree), or other innovative one.
+MCMC devices communicate on a network called MCMC Network in its machine language.
+MCMC Network's topology will be any type, that will be bus, star, ring, MST(Minimum Spanning Tree), or other innovative one.
+We've shown the overview of MCMC Netat the figure of README.
 
-### MCMC devices and equipped the pipeline stage parts
+### MCMC devices and equipped the pipeline stages parts
 
-MPU devices are equipped MPU execute instractions.
 If possible, some MCMC devices have parts of MPU, in that
 they have logic circuit corresponding to one or more pipeline stage.
 In this case, there is advantage to communication because each devices represents its pipeline stage.
-This means that there addresses can be used as a part of machine language.
+This means that the addresses of MCMC devices can be used as a part of machine language.
+Here is the table of MCMC devices that have parts of MPU of 5 papeline stages RISC.
+
+| MCMC devices	| Stage Code	|
+|-------------	|-----------	|
+| IF devices  	| IF        	|
+| D devices   	| D         	|
+| EX devices  	| EX        	|
+| MEM devices 	| MEM       	|
+| WB devices  	| WB        	|
 
 ### MCMC devices and equipped RISC architecture parts
 
-A RISC's CPU consists of control, buffer, data bus and MPU.
-Control devices are equipped controllers on CPU, that receive signals from control devices.
-Buffer devices are equipped buffers, that store data to and from IO devices and memory devices.
-Bus devices are equipped data buses, that carry data among CPU.
+A RISC's CPU consists of control logic, buffer, data bus and MPU(Micrp Processing Unit).
+We show MCMC devices that equiped parts of RISC's CPUs.
+
+| MCMC devices         	| parts of RISC's CPUs	|role                                              	|
+|----------------------	|---------------------	|--------------------------------------------------	|
+| MPU devices          	| MPU                 	|Micro Processing Unit                             	|
+| Bus devices          	| Bus                 	|data bus and address bus                          	|
+| Control Logic devices	| Control Logic       	|communication between ALU and control unit devices	|
+| Buffer devices       	| Buffer              	|buffer to communicate memory unit and I/O unit    	|
 
 ### MCMC devices and equipped von Neumann architecture parts
 
@@ -70,7 +84,7 @@ Bus devices are equipped data buses, that carry data among CPU.
 | Control unit devices | control unit        | control I/Os, memory units, CPUs                                | How the devices control them?             |
 | I/O unit devices     | I/O unit            | communication with IoT                                          | How the devices communicate them?         |
 | Memory unit devices  | memory unit         | store prgram and data (especially data ob blockchain's ledgers) | how the devices guarantee data integrity? |
-| CPU devices          | CPU                 | work as a multiple core                                         | How the devices synchronize each other?   |
+| ALU devices          | ALU                 | multiple Arithmetic Logic Unit                                         | How the devices synchronize each other?   |
 
 ## Related works
 ---
