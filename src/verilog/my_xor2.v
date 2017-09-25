@@ -14,7 +14,7 @@ module MY_XOR2(
   wire IB;
   
   assign IA = IN_A & ~IN_B;
-  assign IB = ~IN_A B IN_B;
+  assign IB = ~IN_A & IN_B;
   
   assign O = IA | IB;
   
