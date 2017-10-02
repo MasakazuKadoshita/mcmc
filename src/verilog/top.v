@@ -1,3 +1,5 @@
+/* Cited from http://research.kek.jp/people/uchida/educations/verilogHDL/index.html*/
+
 module TOP(
   input IN_A, // in  : Input A
   input IN_B, // in  : Input B

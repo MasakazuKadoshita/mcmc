@@ -1,5 +1,6 @@
 /* module example */
 /* 2 inputs XOR */
+/* Cited from http://research.kek.jp/people/uchida/educations/verilogHDL/index.html*/
 
 module MY_XOR2(
   input IN_A , // input A
