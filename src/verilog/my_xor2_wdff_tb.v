@@ -1,7 +1,5 @@
 `timescale 1ps/1ps
 
-
-
 module MY_XOR2_WDFF_TB();
 
   reg CLOCK;
@@ -24,23 +22,21 @@ module MY_XOR2_WDFF_TB();
   initial begin
     CLOCK = 0;
   end
-  always #5000
-      CLOCK <= ~clock;
-  end
+  always #1000
+      CLOCK <= ~CLOCK;
 
   initial begin
-            RESET = 0;
-       #100 RESET = 1;
-    #300000 RESET = 0;
-       #100 RESET = 1;
+            RESET = 1;
+       #100 RESET = 0;
+    #300000 RESET = 1;
+       #100 RESET = 0;
   end
   
   initial begin
     CLOCK_ENABLE = 0;
   end
-  always #40000
-      CLOCK_ENABLE <= ~clock;
-  end
+  always #10000
+      CLOCK_ENABLE <= ~CLOCK_ENABLE;
 
   initial begin
     IN_A = 0;
@@ -50,6 +46,7 @@ module MY_XOR2_WDFF_TB();
   end
   
   initial begin
-    IN_A = 0;
-    #20000 IN_A = 1;
+    IN_B = 0;
+    #20000 IN_B = 1;
   end
+endmodule

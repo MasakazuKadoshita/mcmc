@@ -7,7 +7,7 @@ module MY_XOR2_WDFF(
   input  CE     ,  //  in   :  Input, Clock enable
   input  IN_A   ,  //  in   :  Input
   input  IN_B   ,  //  in   :  Input
-  output O      ,  //  out  :  Output
+  output O         //  out  :  Output
 );
 
   reg Q;
@@ -16,8 +16,8 @@ module MY_XOR2_WDFF(
     if(RESET) begin
       Q <= 1'b0;
     end else begin
-      if(CE)brgin
-        Q <= (IN_A & ~IN_B) | (~IN_A & IN_B));
+      if(CE)begin
+        Q <= ((IN_A & ~IN_B) | (~IN_A & IN_B));
       end
     end
   end
