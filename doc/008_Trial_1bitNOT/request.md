@@ -29,13 +29,13 @@ TBD.
 
 ### Resources
 
-|category	| product name	| URL 	|
-| -------	| ------------	| ----	|
-| Textbook of electronic work |- |- 	|
-| HDL(hardware description language) |TBD |- 	|
-| Logic circuit Simulator| logisim	| http://www.cburch.com/logisim/	|
-| Circuits boards	|-	|-	|
-| Parts of electric circuit	|-	|-	|
+|category                           	| product name                   	| URL 	|
+| ----------------------------------	| -------------------------------	| ----	|
+| Textbook of electronic work       	| -                              	| -   	|
+| HDL(hardware description language)	| Verilog HDL                    	| -   	|
+| Logic circuit Simulator for HDL   	| ModelSim-Altera Starter Edition	| https://www.altera.co.jp/products/design-software/model---simulation/modelsim-altera-software.html	|
+| Circuits boards                   	| -                              	| -   	|
+| Parts of electric circuit         	| -                              	| -   	|
 
 ### Related Works
 TBD.
