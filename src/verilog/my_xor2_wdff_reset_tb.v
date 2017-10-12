@@ -28,26 +28,26 @@ module MY_XOR2_WDFF_TB();
   initial begin
             RESET = 1;
        #100 RESET = 0;
-//    #300000 RESET = 1;
-//       #100 RESET = 0;
+    #100000 RESET = 1;
+       #100 RESET = 0;
   end
   
   initial begin
-    CLOCK_ENABLE = 1;
+            CLOCK_ENABLE = 1;
+    #100000 CLOCK_ENABLE = 0;
   end
 //  always #10000
 //      CLOCK_ENABLE <= ~CLOCK_ENABLE;
 
   initial begin
     IN_A = 0;
+    #10000 IN_A = 1;
+    #20000 IN_A = 0;
+    #30000 IN_A = 1;
   end
-  always #10000
-      #10000 IN_A <= ~IN_A;
   
   initial begin
     IN_B = 0;
+    #20000 IN_B = 1;
   end
-  always #10000
-      #20000 IN_B <= ~IN_B;
-      
 endmodule
